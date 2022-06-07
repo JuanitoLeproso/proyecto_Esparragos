@@ -4,41 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Espárragos | Viandas saludables</title>
+    <title>Esparragos | Viandas saludables</title>
     <link rel="icon" href="../Images/Logo.ico">
-    <link rel="stylesheet" href="../css/index.css">
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link rel="stylesheet" href="../css/Estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="header">
-            <img class="logo" src="../Images/logo redondo.png"  alt="logo espárragos">
-            <h1 class="slogan">Viandas saludables</h1>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a href="../Index.html">Inicio</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./Nosotros.html">Nosotros</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./Galeria.html">Galeria</a>
-                </li>
-                <li class="menu__item">
-                    <a href="Recetas.html">Nuestras recetas</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./Entregas.html">Entregas</a>
-                </li>
-                <li class="menu__item">
-                    <a href="./Contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <span class="iconify" data-icon="dashicons:menu-alt2"></span>
+        </label>
+        <a href="#" class="enlace">
+            <img src="../Images/logo redondo.png"class="logo">
+        </a>
+        <ul class="menu">
+            <li class="menu__item">
+                <a class="menu__link" href="../Index.html">Inicio</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="./Galeria.html">Galeria</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="Recetas.html">Nuestras recetas</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="./Entregas.html">Entregas</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="./Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
     </header>
     <section class="fondo_recetas">
          <h2 class="titulos_recetas"><b>NUESTRAS RECETAS</b></h2>
@@ -47,7 +52,7 @@
         <div class="textos_ingredientes">
             <p>INGREDIENTES</p>
             <p><br><strong>Para la masa:</strong><br><br> </p>
-            <ul >
+            <ul>
                 <li>- Almidón de mandioca 250 g.</li>
                 <li>- Harina de maíz fina 50 g.</li> 
                 <li>- Manteca 50 g.</li>  
@@ -74,13 +79,12 @@
         </p>
     </section>
     <footer>
-        <h3>Seguinos en nuestras redes</h3>
-        <ul class="redes">
-           <li class="instagram" ><a href="https://www.instagram.com" class="instagram"> <span class="iconify" data-icon="akar-icons:instagram-fill"></span></a></li>
-           <li class="facebook" ><a href="https://www.facebook.com" class="facebook"> <span class="iconify" data-icon="ant-design:facebook-outlined"></span> </a></li>
-           <li class="icono_whatsapp" ><span class="iconify" data-icon="akar-icons:whatsapp-fill"></span></li>
-           <li class="numero" ><br>2613664819</li>
-        </ul>
-    </footer>
+        <p class="seguinos">SEGUINOS EN NUESTRAS REDES</p>
+        <div class="redes">
+             <div class="instagram"><a href="https://www.instagram.com"class="instagram"><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a></div>
+             <div class="facebook"><a href="https://www.facebook.com"class="facebook"><span class="iconify" data-icon="ant-design:facebook-outlined"></span> </a></div>
+             <div class="whatsapp"> <a href="https://web.whatsapp.com/"></a><span class="iconify" data-icon="akar-icons:whatsapp-fill"></span></div>
+        </div>
+     </footer>
 </body>
 </html>
