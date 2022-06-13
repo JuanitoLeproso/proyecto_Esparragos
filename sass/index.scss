@@ -1,7 +1,7 @@
 /*HEADER*/
 
 nav {
-    background-color: #B0C195;
+    background-image: linear-gradient(to bottom, #b0c19c, #bfcea8, #cfdbb4, #dfe8c0, #eff5cc);
     height: 165px;
     width: 100%;    
         .enlace {
@@ -240,7 +240,7 @@ nav {
 /* FOOTER */
 
 footer {
-    background-color: #6F8A4F;
+    background-image: linear-gradient(to bottom, #eff5cc, #cfd9ab, #afbe8b, #8fa46c, #6f8a4f);
     width: 100%;
     height: 80px;
     & .seguinos {
